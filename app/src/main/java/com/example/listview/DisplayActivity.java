@@ -15,9 +15,9 @@ public class DisplayActivity extends AppCompatActivity {
         setContentView(R.layout.activity_display);
 
         Intent message=getIntent();
-        String nayapdf=message.getStringExtra("forntc");
+        String nayapdf=message.getStringExtra("final");
 
         PDFView display= (PDFView) findViewById(R.id.display);
-        display.fromAsset(nayapdf).load();
+        display.fromAsset(nayapdf+".pdf").load();
     }
 }

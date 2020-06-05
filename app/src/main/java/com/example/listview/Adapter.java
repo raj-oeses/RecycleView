@@ -2,12 +2,10 @@ package com.example.listview;
 
 
 import android.content.Context;
-import android.content.Intent;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
-import android.widget.LinearLayout;
 import android.widget.TextView;
 
 import androidx.annotation.NonNull;
@@ -46,7 +44,6 @@ class SyllabusAdapter extends RecyclerView.Adapter<SyllabusAdapter.SyllabusViewH
 
         final String subject= data[position];
         holder.txtTitle.setText(subject);
-
     }
 
     @Override

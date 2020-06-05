@@ -9,7 +9,11 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".BTn3"></activity>
+        <activity android:name=".CivilPSC"></activity>
+        <activity android:name=".DisplayActivityThird" />
+        <activity android:name=".DisplayActivitySecond" />
+        <activity android:name=".Listviewpractise" />
+        <activity android:name=".BTn3" />
         <activity android:name=".DisplayActivity" />
         <activity android:name=".MainActivity">
             <intent-filter>
